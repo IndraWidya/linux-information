@@ -5,6 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="designsidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<div>
+    <div class="container">
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-sidebar'></i>
+                <div class="logo_name">Linux Distribution</div>
+            </div> <i class='bx bx-menu' id='btn'></i></div>
+
+            <div class="src">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search..">
+            </div>
+
+            
+            <ul class="nav">
+                <li>
+                    <a href="#">
+                        <i class='bx bx-bar-chart-square' ></i>
+                        <span class="link_name">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-book-content'></i>
+                        <span class="link_name">Linux</span>
+                    </a>
+                    <span class="tooltip">Linux</span>
+                    
+                </li>                
+                <li>
+                    <a href="#">
+                        <i class='bx bx-info-circle' ></i>
+                        <span class="link_name">About Us</span>
+                    </a>
+                    <span class="tooltip">About Us</span>
+                    
+                </li>                            
+            </ul>
+        </div>
+    </div>
+    <div class="home_content" id="main">
+        <div class="text" id="main">Home Content</div>
+    <div class="pengertian">
+        
+    </div>
+    </div> 
+</div>
+
+<script src="sidebar.js">
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -15,19 +81,19 @@
             <div class="arrow">
                 <img src="images/arrowLeft.png" alt="arrowLeft">
             </div>
-            <div class="linux-content ubuntu" onclick="window.location='pages-html/ubuntu-page.html'">
+            <div class="linux-content ubuntu">
                 <h1 class="content-title">Ubuntu</h1>
                 <img src="images//130px/ubuntu.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content kali-linux" onclick="window.location='pages-html/kali-linux-page.html'">
+            <div class="linux-content kali-linux">
                 <h1 class="content-title">Kali Linux</h1>
                 <img src="images/130px/kali-linux.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content linux-mint" onclick="window.location='pages-html/linux-mint-page.html'">
+            <div class="linux-content linux-mint">
                 <h1 class="content-title">Linux Mint</h1>
                 <img src="images/130px/linux-mint.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content debian" onclick="window.location='pages-html/debian-page.html'">
+            <div class="linux-content debian">
                 <h1 class="content-title">Debian</h1>
                 <img src="images/130px/debian.svg" alt="ubuntu-image">
             </div>
@@ -46,19 +112,19 @@
             <div class="arrow">
                 <img src="images/arrowLeft.png" alt="arrowLeft" onclick="replace2('secondContainer', 'firstContainer')">
             </div>
-            <div class="linux-content fedora-linux" onclick="window.location='pages-html/fedora-linux-page.html'">
+            <div class="linux-content fedora-linux">
                 <h1 class="content-title">Fedora Linux</h1>
                 <img src="images/130px/fedora-linux.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content suse-linux" onclick="window.location='pages-html/suse-linux-page.html'">
+            <div class="linux-content suse-linux">
                 <h1 class="content-title">Suse Linux</h1>
                 <img src="images/130px/suse-linux.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content kubuntu" onclick="window.location='pages-html/kubuntu-page.html'">
+            <div class="linux-content kubuntu">
                 <h1 class="content-title">Kubuntu</h1>
                 <img src="images/130px/kubuntu.svg" alt="ubuntu-image">
             </div>
-            <div class="linux-content arch-linux" onclick="window.location='pages-html/arch-linux-page.html'">
+            <div class="linux-content arch-linux">
                 <h1 class="content-title">Arch Linux</h1>
                 <img src="images/130px/arch-linux.svg" alt="ubuntu-image">
             </div>
